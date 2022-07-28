@@ -4,16 +4,10 @@ import Welcome from './Welcome';
 
 const App = () => {
   return (
-    <Welcome name="Sahil" />
+ <div>
+     <Welcome name={"Sahil"} />
+ </div>
   )
 }
 
-function Welcome(props){
-  let name = props.name;
-  return(
-    <div>
-      <Welcome name = {"Sahil"} />
-    </div>
-  );
-}
 export default App;
