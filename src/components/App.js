@@ -3,8 +3,8 @@ import '../styles/App.css';
 import Welcome from './Welcome';
 
 function App(){
- 
-  return <Welcome name="Sahil Thakur" />
+ let name = "sahil thakur"
+  return <Welcome name={name} />
  
 }
 
